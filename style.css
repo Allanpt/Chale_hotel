@@ -9,17 +9,17 @@ body {
 }
 a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style: none;
 }
 #container{
     
-    background: #ede9cc url(assets/bg-container.png);
+    background: #ede9cc url(assets/bg-container.png) center ;
     min-width: 740px;
     max-width: 1180px;
     margin: 10px auto;
-    border: 1px solid red;
 
 }
 /*Topo*/
@@ -53,7 +53,6 @@ ul{
     margin-left: 90px;
     margin-top: 15px;
     margin-right: 10px;
-    border: 1px solid red;
 }
 #conteudo-topo-navbar{
     border-bottom: 1px solid #b5ab56;
@@ -77,19 +76,82 @@ ul{
 }
 #links {
     padding-top: 25px;
-    padding-left: 5px;
 }
 #links li{
+    
     padding-bottom: 15px;
     text-transform: uppercase;
     font-size: 0.8em;
 }
 #links a{
+    padding: 5px;
     color: #80763c;
     font-weight: 400;
 }
+#links a:hover{
+    background-color: #f1ecaa;
+}
+
 #logo-menssagem{
     position: absolute;
     right: 0;
     bottom: 0;
+}
+/*Area principal*/
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(assets/bg-area-principal.png) repeat-x;
+}
+#area-conteudo-principal{
+    padding: 20px 30px;
+}
+#area-conteudo-principal h1{
+    font-size: 1.1em;
+    padding-bottom: 5px;
+    color:#80763c;
+}
+
+/*Area Lateral*/
+#area-lateral-direito{
+    float: right;
+    width: 50%;
+    background: url(assets/bg-area-lateral.png) repeat-x ;
+}
+#area-lateral-conteudo{
+    padding: 20px 30px;
+}
+
+.post a:hover{
+    display: block;
+    background-color: #f1ecaa;
+}
+
+.post img{
+    width: 150px;
+    padding-right: 10px;
+    float: left;
+    padding: 8px;
+}
+.post-conteudo-lateral{
+    padding: 8px;
+    padding-bottom: 31px;
+    border-bottom: #ede9cc 1px solid;
+}
+.post h2{
+    margin-left: 170px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #645c2f;
+    background: url(assets/ornamento.png) no-repeat center right;
+}
+.post p{
+    font-size: 0.8em;
+}
+/*Rodapé*/
+#footer{
+    padding: 15px;
+    color: #80763c;
+    background: white url(assets/bg-rodape.png)repeat-x;
+    clear: both;
 }
