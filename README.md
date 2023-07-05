@@ -18,7 +18,7 @@ Modelo de site utilizando algumas ferramentas básicas do HTML e CSS aplicando u
 <br>
 
 <p align="center">
-  <img alt="projeto Chalé Hotel" src=".github/2023-07-02%20(1).png
+  <img alt="projeto Chalé Hotel" src=".github/2023-07-02%20(1).png" width="100%">
 
 ## :rocket: Tecnologia
 
